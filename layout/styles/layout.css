@@ -403,3 +403,26 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
 }
+
+/* Additional styles (observatorioing.com)
+--------------------------------------------------------------------------------------------------------------- */
+.profilepic{
+	max-height: 120px;
+}
+
+.box {
+  transition: box-shadow .3s;
+  border-radius:40px;
+  float: left;
+  
+}
+.box:hover {
+  box-shadow: 0 0 5px 10px rgba(33,33,33,.2); 
+}
+
+.centerImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
